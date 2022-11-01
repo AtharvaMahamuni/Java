@@ -23,7 +23,8 @@ public class RotationPoint {
         }
 
         // FIXME: Condition 2 should come after the 1st and not the opposite
-        // otherwise it will give the index out of bound exception in some cases.
+        // else it will give the index out of bound exception in the cases where array
+        // is shrinked to 2 positions.
 
         return -1;
     }
