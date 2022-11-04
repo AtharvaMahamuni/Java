@@ -51,7 +51,7 @@ public class BinarySearch {
         System.out.println(b.BinarySearchIterative(array1, 11));
         System.out.println(b.BinarySearchIterative(array1, 666));
 
-        System.out.println("recursive"); 
+        System.out.println("recursive");
         // Recursive
         System.out.println(b.BinarySearchRecursive(array1, 33, 0, 8));
         System.out.println(b.BinarySearchRecursive(array1, 99, 0, 8));
